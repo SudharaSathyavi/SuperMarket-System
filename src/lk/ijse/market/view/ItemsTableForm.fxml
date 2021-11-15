@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ItemTableContext" prefHeight="590.0" prefWidth="877.0" style="-fx-background-color: #10ac84;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.market.controller.ItemsTableFormController">
+   <children>
+      <Label layoutX="27.0" layoutY="14.0" prefHeight="57.0" prefWidth="118.0" text="Items" textFill="#ae1515">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tblItem" layoutX="27.0" layoutY="110.0" prefHeight="370.0" prefWidth="660.0">
+         <columns>
+            <TableColumn fx:id="colCode" prefWidth="97.60000610351562" text="Code" />
+            <TableColumn fx:id="colDiscription" prefWidth="175.20001220703125" text="Discription" />
+            <TableColumn fx:id="colPackSize" prefWidth="132.79998779296875" text="PackSize" />
+            <TableColumn fx:id="colUnitPrice" prefWidth="96.79998779296875" text="Unit Price" />
+            <TableColumn fx:id="colQtyOnHand" prefWidth="165.60009765625" text="QTY On Hand" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

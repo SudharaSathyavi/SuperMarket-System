@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="577.0" prefWidth="840.0" style="-fx-background-color: #10ac84;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.market.controller.ModifiItemFormController">
+   <children>
+      <Label layoutX="223.0" layoutY="14.0" text="Modifi Item" textFill="#110f0f">
+         <font>
+            <Font name="System Bold Italic" size="32.0" />
+         </font>
+      </Label>
+      <Separator layoutY="71.0" prefHeight="12.0" prefWidth="840.0" />
+      <Label layoutX="21.0" layoutY="128.0" text="Item Code " textFill="#111111">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="176.0" text="Item Discription " textFill="#141414">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtDiscription" layoutX="200.0" layoutY="175.0" prefHeight="26.0" prefWidth="302.0" />
+      <Label layoutX="25.0" layoutY="225.0" text="Pack Size " textFill="#141414">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtPackSize" layoutX="200.0" layoutY="224.0" prefHeight="26.0" prefWidth="302.0" />
+      <Label layoutX="23.0" layoutY="276.0" text="Unit Price " textFill="#171717">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtUnitPrice" layoutX="200.0" layoutY="275.0" prefHeight="26.0" prefWidth="302.0" />
+      <Label layoutX="23.0" layoutY="323.0" text="Qty On Hand " textFill="#141313">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtQTYOnhand" layoutX="200.0" layoutY="322.0" prefHeight="26.0" prefWidth="302.0" />
+      <JFXButton layoutX="374.0" layoutY="404.0" onAction="#comfirmOnAction" prefHeight="47.0" prefWidth="172.0" style="-fx-background-color: purple; -fx-background-radius: 8px;" text="Comfirm" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXComboBox fx:id="cmdItcomCode" labelFloat="true" layoutX="200.0" layoutY="115.0" prefHeight="26.0" prefWidth="302.0" promptText="Item ID" unFocusColor="WHITE" />
+      <ImageView fitHeight="47.0" fitWidth="63.0" layoutX="155.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/remove-from-cart.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

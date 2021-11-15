@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="modifiOrderContext" prefHeight="577.0" prefWidth="880.0" style="-fx-background-color: #10ac84;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.market.controller.ModifiOrderFormController">
+   <children>
+      <Label layoutX="255.0" layoutY="14.0" text="Modifi Order" textFill="#222121">
+         <font>
+            <Font name="System Bold Italic" size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="115.0" text="Enter the Order ID that needs to be Updated " textFill="#1b1a1a">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtOrderID" layoutX="396.0" layoutY="114.0" onAction="#searchOrderDetaisOnAction" />
+      <JFXTextField fx:id="txtItemCode" editable="false" layoutX="394.0" layoutY="160.0" prefHeight="26.0" prefWidth="149.0" unFocusColor="WHITE" />
+      <Label layoutX="15.0" layoutY="173.0" text="Item Code " textFill="#1b1a1a">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtOrderQty" layoutX="394.0" layoutY="212.0" prefHeight="26.0" prefWidth="150.0" unFocusColor="WHITE" />
+      <Label layoutX="18.0" layoutY="225.0" text="Order Qty" textFill="#1e1e1e">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtDiscount" layoutX="394.0" layoutY="259.0" prefHeight="26.0" prefWidth="150.0" unFocusColor="WHITE" />
+      <Label layoutX="14.0" layoutY="276.0" text="Dicount " textFill="#111111">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="131.0" layoutY="336.0" onAction="#comfirmOnAction" prefHeight="46.0" prefWidth="187.0" style="-fx-background-color: purple; -fx-background-radius: 8px;" text="Comfirm" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </JFXButton>
+      <Separator layoutY="76.0" prefHeight="4.0" prefWidth="840.0" />
+      <ImageView fitHeight="47.0" fitWidth="87.0" layoutX="194.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/checklist.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

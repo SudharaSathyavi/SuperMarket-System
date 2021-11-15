@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="RemoveItemContext" prefHeight="577.0" prefWidth="840.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.market.controller.RemoveItemFormController">
+   <children>
+      <Label layoutX="238.0" layoutY="14.0" prefHeight="47.0" prefWidth="243.0" text="Remove Item" textFill="#dd0909">
+         <font>
+            <Font name="System Bold Italic" size="32.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCode" layoutX="383.0" layoutY="110.0" onAction="#searchOnAction" prefHeight="26.0" prefWidth="222.0" />
+      <Label layoutX="33.0" layoutY="111.0" text="Please Enter the Code You Want to Delete " textFill="#0a0a0a">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtDescription" layoutX="383.0" layoutY="164.0" prefHeight="26.0" prefWidth="222.0" />
+      <Label layoutX="33.0" layoutY="165.0" text="Discription " textFill="#0d0d0d">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="232.0" text="Pack Size " textFill="#0a0a0a">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="284.0" text="Unit Price " textFill="#0d0d0d">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="346.0" text="Qty On Hand " textFill="#0a0a0a">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtPackSize" layoutX="383.0" layoutY="229.0" prefHeight="26.0" prefWidth="222.0" />
+      <TextField fx:id="txtUnitPrice" layoutX="383.0" layoutY="282.0" prefHeight="26.0" prefWidth="222.0" />
+      <TextField fx:id="txtQTYonhand" layoutX="383.0" layoutY="344.0" prefHeight="26.0" prefWidth="222.0" />
+      <JFXButton layoutX="238.0" layoutY="419.0" onAction="#removeOnAction" prefHeight="42.0" prefWidth="202.0" style="-fx-background-color: purple; -fx-background-radius: 20;" text="Remove" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="53.0" fitWidth="109.0" layoutX="112.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/remove-from-cart.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

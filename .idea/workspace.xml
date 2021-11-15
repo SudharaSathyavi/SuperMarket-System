@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eca856cd-cc3d-43ad-b5ee-394d70cb36fe" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="Interface" />
+        <option value="JavaScript File" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>system.</find>
+      <find>logInMain</find>
+      <find>log out</find>
+      <find>log</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/controller/CustomerControllFormController.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/controller/CustomerService.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/view/CustomerTableForCashierForm.fxml" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/controller/CustomerTableForCashierFormController.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/controller/CustomerController.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/view/DoneOrderForm.fxml" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/controller/DoneOrderFormController.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/view/EditCustomerForm.fxml" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/controller/EditCustomerFormController.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/view/IncomeForm.fxml" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/controller/IncomeFormController.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/view/ItemsTableForm.fxml" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/controller/ItemsTableFormController.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/view/MakeOrderForm.fxml" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/view/ModifiItemForm.fxml" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/controller/ModifiItemFormController.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/view/ModifiOrderForm.fxml" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/view/OrderAndOrderDetailsTableForm.fxml" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/controller/OrderAndOrderDetailsTableFormController.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/view/OrderCompleteForm.fxml" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/controller/OrderCompleteFormController.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/view/RemoveCustomerForm.fxml" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/controller/RemoveCustomerFormController.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/view/RemoveItemForm.fxml" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/controller/RemoveItemFormController.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/view/RemoveOrderForm.fxml" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/controller/RemoveOrderFormController.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/view/SearchCustomerForm.fxml" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/controller/SearchCustomerFormController.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/controller/ItemController.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/controller/ItemService.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/controller/OrderDetails.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/view/TM/OrderDetailsTM.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/model/OrderDetails.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/controller/ItemRates.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/model/Order.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/controller/MakeOrderFormController.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/view/ManageItemForm.fxml" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/controller/ManageItemFormController.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/controller/ModifiOrderFormController.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/DB/script.sql.js" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/DB/script.sql" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/AppInitializer.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/view/AdminLogingForm.fxml" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/controller/AdminLogingFormController.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/controller/CashierLogingFormController.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/view/CashierLogingForm.fxml" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/controller/CasgierLogingFormController.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/view/DashboardForm.fxml" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/market/controller/DashboardFormController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-2" />
+    <option name="y" value="13" />
+    <option name="width" value="841" />
+    <option name="height" value="867" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Redshift&#10;ClickHouse" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lk/ijse/market" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lk.ijse.market.controller" />
+      <recent name="lk.ijse.market.view.TM" />
+      <recent name="lk.ijse.market.model" />
+      <recent name="lk.ijse.market.db" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Documents\Supermarket\src\lk\ijse\market" />
+      <recent name="C:\Users\Lenovo\Documents\Supermarket\src\lk\ijse\market\view" />
+      <recent name="C:\Users\Lenovo\Documents\Supermarket\lib" />
+      <recent name="C:\Users\Lenovo\Documents\Supermarket\src\lk\ijse\market\DB" />
+      <recent name="C:\Users\Lenovo\Documents\Supermarket\src\lk\ijse\market\model" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.AppInitializer (1)">
+    <configuration name="AppInitializer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ijse.market.AppInitializer" />
+      <module name="Supermarket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.ijse.market.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppInitializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppInitializer" />
+      <module name="Supermarket" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AppInitializer (1)" />
+        <item itemvalue="Application.AppInitializer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eca856cd-cc3d-43ad-b5ee-394d70cb36fe" name="Default Changelist" comment="" />
+      <created>1631420079427</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631420079427</updated>
+      <workItem from="1631420086240" duration="7029000" />
+      <workItem from="1631462933393" duration="7604000" />
+      <workItem from="1631471584045" duration="272000" />
+      <workItem from="1631530179935" duration="10558000" />
+      <workItem from="1631549576884" duration="5928000" />
+      <workItem from="1631591378122" duration="1030000" />
+      <workItem from="1631593871876" duration="5140000" />
+      <workItem from="1631610893965" duration="22695000" />
+      <workItem from="1631638076358" duration="933000" />
+      <workItem from="1631669507251" duration="12548000" />
+      <workItem from="1631691712841" duration="10169000" />
+      <workItem from="1631710879744" duration="8146000" />
+      <workItem from="1631725336830" duration="11330000" />
+      <workItem from="1631761860640" duration="9715000" />
+      <workItem from="1631783163399" duration="83000" />
+      <workItem from="1631783282798" duration="112000" />
+      <workItem from="1631808755707" duration="427000" />
+      <workItem from="1631848456605" duration="2509000" />
+      <workItem from="1631944921778" duration="1087000" />
+      <workItem from="1632061619929" duration="1126000" />
+      <workItem from="1632106900006" duration="1951000" />
+      <workItem from="1632311239460" duration="54000" />
+      <workItem from="1632311327812" duration="4615000" />
+      <workItem from="1632316247820" duration="13044000" />
+      <workItem from="1632330337059" duration="689000" />
+      <workItem from="1632363242884" duration="1667000" />
+      <workItem from="1632376178705" duration="6964000" />
+      <workItem from="1632384393442" duration="1388000" />
+      <workItem from="1632388087196" duration="11049000" />
+      <workItem from="1632415572748" duration="7502000" />
+      <workItem from="1632452448513" duration="7874000" />
+      <workItem from="1632468831492" duration="9219000" />
+      <workItem from="1632502752009" duration="3802000" />
+      <workItem from="1632552573311" duration="4474000" />
+      <workItem from="1632563786655" duration="3402000" />
+      <workItem from="1632571497870" duration="654000" />
+      <workItem from="1632590656053" duration="26000" />
+      <workItem from="1632666190804" duration="432000" />
+      <workItem from="1632980432354" duration="49000" />
+      <workItem from="1633716223066" duration="931000" />
+      <workItem from="1633763635203" duration="631000" />
+      <workItem from="1635005449174" duration="417000" />
+      <workItem from="1635710687707" duration="123000" />
+      <workItem from="1636297573427" duration="444000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="199842000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <layout>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5010846" side_tool="true" weight="0.24104477" />
+      <window_info auto_hide="true" content_ui="combo" id="Project" order="6" sideWeight="0.4989154" weight="0.2377892" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32777777" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32777777" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32916668" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32985073" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5010846" side_tool="true" weight="0.24104477" />
+      <window_info active="true" auto_hide="true" content_ui="combo" id="Project" order="6" sideWeight="0.4989154" visible="true" weight="0.2647815" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32896653" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32896653" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32985073" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lk/ijse/market/controller/OrderController.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/assets/menu1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/assets/menu.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/assets/market.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/assets/loupe.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/assets/list-6253.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/assets/list-6251.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/assets/images.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/assets/follow.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/assets/exit.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/assets/email.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/assets/edit.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/assets/delete.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/assets/data1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/assets/data.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/assets/dash1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/assets/avatar.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/assets/back.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/assets/book-5015.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/assets/cash-payment.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/assets/checked.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/assets/checklist.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/assets/credit-card.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/assets/dash.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/DB/DbConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/AppInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/controller/DashboardFormController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-623">
+          <caret line="59" column="46" lean-forward="true" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/view/DashboardForm.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1021">
+          <caret line="66" column="125" selection-start-line="66" selection-start-column="125" selection-end-line="66" selection-end-column="125" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/view/CashierDashboardForm.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255" />
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/view/AddNewItemForm.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/assets/customer.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/assets/customer (1).png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/view/CustomerControllForm.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/view/ItemsTableForm.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/view/RemoveItemForm.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/view/RemoveOrderForm.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/view/TM/CartTM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/view/TM/CustomerOrderDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/view/TM/ItemTM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/model/ItemQtyRates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/model/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/model/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/controller/IncomeFormController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1258">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/controller/MakeOrderFormController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/controller/ItemRates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/model/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/model/OrderDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/DB/script.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="2" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/controller/ItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/controller/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="88" lean-forward="true" selection-start-line="10" selection-start-column="88" selection-end-line="10" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/market/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mysql-connector-java-8.0.19</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

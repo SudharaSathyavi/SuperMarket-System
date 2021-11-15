@@ -1,0 +1,45 @@
+DROP DATABASE Shop;
+CREATE DATABASE Shop;
+USE Shop;
+
+CREATE TABLE Customer(
+    CustID VARCHAR (6),
+    CustTitle VARCHAR (5),
+    CustName VARCHAR (30),
+    CustAddress VARCHAR (30),
+    City VARCHAR (20),
+    Povince VARCHAR (20),
+    PostCode VARCHAR (9),
+    CONSTRAINT PRIMARY KEY (CustID)
+);
+
+
+CREATE TABLE `order`(
+OrderID VARCHAR (6),
+    OrderDate DATE ,
+    CustID VARCHAR (6),
+    CONSTRAINT PRIMARY KEY (OrderID),
+    CONSTRAINT FOREIGN KEY (CustID) REFERENCES Customer(CustID) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE Item(
+ ItemCode VARCHAR (6),
+    Description VARCHAR (50),
+    PackSize VARCHAR (20),
+    UnitPrice DOUBLE DEFAULT 0.00,
+    QtyOnHand INT DEFAULT 0,
+    CONSTRAINT PRIMARY KEY (ItemCode)
+);
+
+CREATE TABLE `Order Details`(
+    OrderID VARCHAR(6),
+    ItemCode VARCHAR(6),
+    Orderqty INT,
+    Discount DOUBLE,
+    Price DOUBLE,
+    CONSTRAINT PRIMARY KEY (OrderID,ItemCode),
+    CONSTRAINT FOREIGN KEY (ItemCode) REFERENCES Item(ItemCode) ON DELETE CASCADE ON UPDATE CASCADE ,
+    CONSTRAINT FOREIGN KEY (OrderID) REFERENCES `Order`(OrderID) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+

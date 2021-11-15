@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="775.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.market.controller.CustomerTableForCashierFormController">
+   <children>
+      <Label layoutX="308.0" prefHeight="47.0" prefWidth="179.0" text="Customers" textFill="#ae0909">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tblCustomer" layoutX="63.0" layoutY="70.0" prefHeight="430.0" prefWidth="727.0">
+         <columns>
+            <TableColumn fx:id="colID" prefWidth="77.0" text="ID" />
+            <TableColumn fx:id="colTitle" prefWidth="79.0" text="Title" />
+            <TableColumn fx:id="colName" prefWidth="142.0" text="Name" />
+            <TableColumn fx:id="colAddress" prefWidth="119.20001220703125" text="Address" />
+            <TableColumn fx:id="colCity" prefWidth="102.39999389648438" text="City" />
+            <TableColumn fx:id="colProvince" prefWidth="112.7999267578125" text="Province" />
+            <TableColumn fx:id="colPostCode" prefWidth="92.800048828125" text="Post Code" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

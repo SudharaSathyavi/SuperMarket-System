@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="AdminDashboardContext" prefHeight="651.0" prefWidth="1241.0" style="-fx-background-color: #a19595;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.market.controller.ManageItemFormController">
+   <children>
+      <JFXButton layoutX="51.0" layoutY="424.0" onAction="#backOnAction" prefHeight="40.0" prefWidth="153.0" style="-fx-background-color: purple; -fx-background-radius: 8px;" text="&lt;&lt; Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="47.0" fitWidth="40.0" layoutX="434.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/customer.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="52.0" layoutX="620.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/trolley.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="53.0" layoutX="790.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/exit.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="52.0" layoutX="36.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/edit.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="40.0" layoutX="34.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/refresh.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="53.0" layoutX="33.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/delete.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="63.0" layoutX="33.0" layoutY="348.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/dash1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="31.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/report1.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="463.0" layoutY="64.0" onAction="#CustomerControllOnAction" prefHeight="39.0" prefWidth="115.0" text="Customers" textFill="#a11717">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnLogout" layoutX="810.0" layoutY="66.0" onAction="#logOutOnAction" prefHeight="39.0" prefWidth="128.0" text="Log Out" textFill="#a11717">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="70.0" layoutY="116.0" onAction="#addNewItemOnAction" prefHeight="39.0" prefWidth="189.0" text="Register New Item" textFill="#0a0909">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="73.0" layoutY="172.0" onAction="#modifiItemOnAction" prefHeight="39.0" prefWidth="198.0" text="Modify Item Details" textFill="#0a0909">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="73.0" layoutY="229.0" onAction="#removeItemOnAction" prefHeight="39.0" prefWidth="153.0" text="Remove Items" textFill="#0a0909">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="73.0" layoutY="291.0" onAction="#incomeOnAction" prefHeight="39.0" prefWidth="153.0" text="Income Details" textFill="#0a0909">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="71.0" layoutY="355.0" onAction="#homeOnAction" prefHeight="39.0" prefWidth="88.0" text="Home" textFill="#0a0909">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <AnchorPane fx:id="contextOne" layoutX="280.0" layoutY="116.0" prefHeight="489.0" prefWidth="687.0" style="-fx-background-color: white;">
+         <children>
+            <BarChart fx:id="barChartItem" layoutX="31.0" layoutY="14.0" prefHeight="443.0" prefWidth="626.0">
+              <xAxis>
+                <CategoryAxis label="Item Code" prefHeight="39.0" prefWidth="422.0" side="BOTTOM" fx:id="x" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis fx:id="y" label="Item Rate" side="LEFT" />
+              </yAxis>
+            </BarChart>
+         </children>
+      </AnchorPane>
+      <Label layoutX="-3.0" prefHeight="52.0" prefWidth="1250.0" style="-fx-background-color: ORANGE;" text="                        ADMIN  DASHBOARD">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="632.0" layoutY="65.0" onAction="#ItemTableOnAction" prefHeight="39.0" prefWidth="128.0" text="Items" textFill="#a11717">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

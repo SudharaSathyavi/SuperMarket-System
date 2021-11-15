@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="611.0" prefWidth="841.0" style="-fx-background-color: #10ac84;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.market.controller.IncomeFormController">
+   <children>
+      <Label layoutX="37.0" layoutY="14.0" prefHeight="55.0" prefWidth="153.0" text="Income" textFill="#1114b5">
+         <font>
+            <Font name="System Bold" size="38.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="369.0" layoutY="80.0" prefHeight="82.0" prefWidth="185.0" style="-fx-background-color: purple; -fx-background-radius: 8px;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <Label alignment="CENTER" layoutX="-8.0" layoutY="-1.0" prefHeight="62.0" prefWidth="237.0" text="Daily Income" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblDailyIncom" alignment="CENTER" layoutY="38.0" prefHeight="48.0" prefWidth="200.0" text="0.00/=" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label fx:id="lblDate" layoutX="121.0" layoutY="99.0" text="2021-12-08" textFill="#fff8f8">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTime" layoutX="121.0" layoutY="142.0" text="10:45:40" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <BarChart fx:id="IncomeChart" layoutX="37.0" layoutY="198.0" prefHeight="323.0" prefWidth="610.0" style="-fx-background-color: #76D7C4;">
+         <xAxis>
+            <CategoryAxis label="Month" side="BOTTOM" fx:id="x" />
+         </xAxis>
+         <yAxis>
+            <NumberAxis fx:id="y" label="Income" side="LEFT" />
+         </yAxis>
+      </BarChart>
+   </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="577.0" prefWidth="890.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.market.controller.DoneOrderFormController">
+   <children>
+      <ImageView fitHeight="274.0" fitWidth="321.0" layoutX="278.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/checked.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="232.0" layoutY="393.0" text="Order Complete" textFill="#d30f0f">
+         <font>
+            <Font name="System Bold Italic" size="50.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
